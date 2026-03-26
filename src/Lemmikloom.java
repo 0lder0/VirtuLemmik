@@ -1,4 +1,4 @@
-public class Lemmikloom {
+public abstract class Lemmikloom {
     private String nimi;
     private String liik;
     private int vanus;
@@ -13,6 +13,9 @@ public class Lemmikloom {
         this.liik = liik;
         this.vanus = vanus;
     }
+
+    abstract void söö();
+    abstract void mängi();
 
     public String getNimi() {
         return nimi;
