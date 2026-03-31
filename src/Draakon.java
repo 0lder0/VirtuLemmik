@@ -18,23 +18,20 @@ public class Draakon extends Lemmikloom {
             case 0:
                 System.out.println("Su draakon sai liha. Nälg +20p");
                 this.setNälg(this.getNälg() + 20);
-                if (this.getNälg() > 100){
-                    this.setNälg(100);
-                }
+                if (this.getNälg() > 100) this.setNälg(100);
+                if (this.getNälg() < 0) this.setNälg(0);
                 break;
             case 1:
                 System.out.println("Su draakon sai sütt. Nälg +5p");
                 this.setNälg(this.getNälg() + 5);
-                if (this.getNälg() > 100){
-                    this.setNälg(100);
-                }
+                if (this.getNälg() > 100) this.setNälg(100);
+                if (this.getNälg() < 0) this.setNälg(0);
                 break;
             case 2:
                 System.out.println("Su draakon sõi taimi. Nälg +10p");
                 this.setNälg(this.getNälg() + 10);
-                if (this.getNälg() > 100){
-                    this.setNälg(100);
-                }
+                if (this.getNälg() > 100) this.setNälg(100);
+                if (this.getNälg() < 0) this.setNälg(0);
                 break;
             default:
                 System.out.println("Sisend oli vale. Proovi uuesti.");
@@ -53,23 +50,20 @@ public class Draakon extends Lemmikloom {
             case 0:
                 System.out.println("Käisite lendamas. Meeleolu +20p");
                 this.setMeeleolu(this.getMeeleolu() + 20);
-                if (this.getMeeleolu() > 100){
-                    this.setMeeleolu(100);
-                }
+                if (this.getMeeleolu() > 100) this.setMeeleolu(100);
+                if (this.getMeeleolu() < 0) this.setMeeleolu(0);
                 break;
             case 1:
                 System.out.println("Käisite ujumas. Meeleolu +10p");
                 this.setMeeleolu(this.getMeeleolu() + 10);
-                if (this.getMeeleolu() > 100){
-                    this.setMeeleolu(100);
-                }
+                if (this.getMeeleolu() > 100) this.setMeeleolu(100);
+                if (this.getMeeleolu() < 0) this.setMeeleolu(0);
                 break;
             case 2:
                 System.out.println("Käisite palli mängimas. Meeleolu +5p");
                 this.setMeeleolu(this.getMeeleolu() + 5);
-                if (this.getMeeleolu() > 100){
-                    this.setMeeleolu(100);
-                }
+                if (this.getMeeleolu() > 100) this.setMeeleolu(100);
+                if (this.getMeeleolu() < 0) this.setMeeleolu(0);
                 break;
             default:
                 System.out.println("Sisend oli vale. Proovi uuesti.");
