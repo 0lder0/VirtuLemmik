@@ -15,7 +15,7 @@ public class Jänes extends Lemmikloom{
         int toiduValik = toiduSisend.nextInt();
         switch (toiduValik){
             case 0:
-                System.out.println("Jänku sai porgandi. Nälg +20p");
+                System.out.println("Jänku sai porgandi. Söömine +20p");
                 this.setNälg(this.getNälg() + 20);
                 if (this.getNälg() > 100) this.setNälg(100);
                 if (this.getNälg() < 0) this.setNälg(0);
@@ -27,7 +27,7 @@ public class Jänes extends Lemmikloom{
                 if (this.getNälg() < 0) this.setNälg(0);
                 break;
             case 2:
-                System.out.println("Jänku sai porgandi. Nälg +10p");
+                System.out.println("Jänku sai porgandi. Söömine +10p");
                 this.setNälg(this.getNälg() + 10);
                 if (this.getNälg() > 100) this.setNälg(100);
                 if (this.getNälg() < 0) this.setNälg(0);

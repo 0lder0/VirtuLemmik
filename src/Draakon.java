@@ -16,19 +16,19 @@ public class Draakon extends Lemmikloom {
         int toiduValik = toiduSisend.nextInt();
         switch (toiduValik){
             case 0:
-                System.out.println("Su draakon sai liha. Nälg +20p");
+                System.out.println("Su draakon sai liha. Söömine +20p");
                 this.setNälg(this.getNälg() + 20);
                 if (this.getNälg() > 100) this.setNälg(100);
                 if (this.getNälg() < 0) this.setNälg(0);
                 break;
             case 1:
-                System.out.println("Su draakon sai sütt. Nälg +5p");
+                System.out.println("Su draakon sai sütt. Söömine +5p");
                 this.setNälg(this.getNälg() + 5);
                 if (this.getNälg() > 100) this.setNälg(100);
                 if (this.getNälg() < 0) this.setNälg(0);
                 break;
             case 2:
-                System.out.println("Su draakon sõi taimi. Nälg +10p");
+                System.out.println("Su draakon sõi taimi. Söömine +10p");
                 this.setNälg(this.getNälg() + 10);
                 if (this.getNälg() > 100) this.setNälg(100);
                 if (this.getNälg() < 0) this.setNälg(0);

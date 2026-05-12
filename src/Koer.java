@@ -15,13 +15,13 @@ public class Koer extends Lemmikloom{
         int toiduValik = toiduSisend.nextInt();
         switch (toiduValik){
             case 0:
-                System.out.println("Koerale meeldivad krõbinad. Nälg +20p");
+                System.out.println("Koerale meeldivad krõbinad. Söömine +20p");
                 this.setNälg(this.getNälg() + 20);
                 if (this.getNälg() > 100) this.setNälg(100);
                 if (this.getNälg() < 0) this.setNälg(0);
                 break;
             case 1:
-                System.out.println("Liha oli hea valik. Nälg +10p");
+                System.out.println("Liha oli hea valik. Söömine +10p");
                 this.setNälg(this.getNälg() + 5);
                 if (this.getNälg() > 100) this.setNälg(100);
                 if (this.getNälg() < 0) this.setNälg(0);
